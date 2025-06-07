@@ -22,7 +22,7 @@ Link to Kaggle Dataset: [Life Expectancy Data](https://www.kaggle.com/datasets/k
 ## Data Preprocessing
 The following preprocessing steps are performed:
 - Missing value imputation using median for numerical columns and mode for categorical data.
-- Removal of columns with excessive missing values (e.g., BMI).
+- Removal of columns due to high proportion of anomalies (e.g., BMI).
 - Outlier detection using the Interquartile Range (IQR) 
 - Feature scaling using Min-Max Scaling.
 
